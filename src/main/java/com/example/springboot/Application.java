@@ -11,7 +11,6 @@ import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 public class Application {
-	@Value("${window.size}")
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	}
